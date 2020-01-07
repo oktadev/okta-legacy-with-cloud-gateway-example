@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: servlet-app
+        uri: http://localhost:8000
+        predicates:
+        - Path=/profile,/
+        filters:
+        - TokenRelay=
