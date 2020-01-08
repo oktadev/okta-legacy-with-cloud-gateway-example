@@ -47,7 +47,7 @@ okta:
 Then, run the project with: `./mvnw spring-boot:run`
 
 
-## Legacy Servlet Application Example]
+## Legacy Servlet Application Example
 
 In a seperate terminal window (in the same git repostiory as above) run:
 
