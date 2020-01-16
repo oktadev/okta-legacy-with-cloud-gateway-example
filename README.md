@@ -77,4 +77,4 @@ Please post any questions as comments on the example's [blog post][blog-post], o
 
 Apache 2.0, see [LICENSE](LICENSE).
 
-[blog-post]: https://developer.okta.com/2020/01/08/oauth-legacy-spring-cloud-gateway
+[blog-post]: https://developer.okta.com/blog/2020/01/08/secure-legacy-spring-cloud-gateway
