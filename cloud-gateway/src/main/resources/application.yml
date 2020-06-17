@@ -8,3 +8,8 @@ spring:
         - Path=/profile,/
         filters:
         - TokenRelay=
+okta:
+  oauth2:
+    client-secret: $clientSecret
+    client-id: $clientId
+    issuer: https://$oktaDomain/oauth2/default
