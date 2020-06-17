@@ -34,7 +34,7 @@ Log in to your Okta Developer account (or [sign up](https://developer.okta.com/s
 2. On the Create New Application page, select **Web**.
 3. Give your app a memorable name, add `http://localhost:8080/login/oauth2/code/okta` as a Login redirect URI, select **Refresh Token** (in addition to **Authorization Code**), and click **Done**.
 
-Copy the issuer (found under **API** > **Authorization Servers**), client ID, and client secret into the `application.properties` of the `api-gateway` and `car-service` projects.
+Copy the issuer (found under **API** > **Authorization Servers**), client ID, and client secret into the `src/main/resources/application.yml` file of the `cloud-gateway` project.
 
 ```yaml
 okta:
